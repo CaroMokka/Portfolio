@@ -5,6 +5,7 @@ import Slides from './Slides';
 import './Slider.css';
 
 
+
 /* LEER DOCUMENTACION DE COMPONENTE CAROUSEL */
 const Slider = () => {
     return (

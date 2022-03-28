@@ -1,5 +1,6 @@
 import React from "react";
 import './Slider.css';
+import Image01 from '../../media/todolist.png';
 
 const slidesInfo = [
     {

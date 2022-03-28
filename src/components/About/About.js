@@ -1,5 +1,5 @@
 import React from "react";
-import Warren from "../../media/warren.jpg";
+import Image from "../../media/caro.png";
 import "./About.css";
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
 				Tengo un Titulo de Animador Digital 3D en Arcos.   Me considero una persona inquieta y apasionada. Me siento afortunada de tener esta oportunidad y de asumir este nuevo desafío en mi vida.  Creo rotundamente que los cambios siempre son para bien y la tecnología llego para cambiar mi vida.</p>
 			</div>
 			<div className="about-img">
-				<img src={Warren} alt="about" />
+				<img src={Image} alt="about" />
 			</div>
 		</div>
 	);

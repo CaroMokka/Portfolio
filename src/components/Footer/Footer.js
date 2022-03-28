@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <footer className="footer-container">
             <div className="footer-info">
-                <h1>Carolina Araya G.</h1>
-                <p>Based in Santiago, Chile</p>
+                <h1>Carolina Araya González</h1>
+                <p>Santiago, Chile</p>
             </div>
             <div className="footer-contact">
                 <h3>Contáctame</h3>
@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="footer-sns">
                 <div className="Design-by">
-                    Hecho por Carolina Araya G.
+                    Hecho por Carolina Araya González
                 </div>
                 <div className="sns-links">
                     <a href="https://www.linkedin.com/in/carolina-araya-gonzalez/" target="_blank" rel="noreferrer">

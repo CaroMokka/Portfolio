@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cover.css';
-import coverVideo from '../../media/coverVideo.mp4';
+import coverVideo from '../../media/coverVideo01.mp4';
 
 
 const Cover = () => {
@@ -9,7 +9,7 @@ const Cover = () => {
 			<video className="video" src={coverVideo} autoPlay loop muted />
 			<h1 className="cover-h1">Carolina Araya González</h1>
 			<p className="cover-p">
-				Developer | Designer | Animation {" "}
+				Web Developer {" "}
 			</p>
 		</div>
 	);
