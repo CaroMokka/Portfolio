@@ -3,17 +3,17 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="footer-container">
-            <div className="footer-info">
+        <footer className="footer-container text-uppercase">
+            <div className="footer-info fw-lighter">
                 <h1>Carolina Araya González</h1>
                 <p>Santiago, Chile</p>
             </div>
-            <div className="footer-contact">
+            <div className="footer-contact fw-lighter">
                 <h3>Contáctame</h3>
                 <p>Y pongámonos manos a la obra</p>
             </div>
             <div className="footer-sns">
-                <div className="Design-by">
+                <div className="Design-by fw-light mb-2">
                     Hecho por Carolina Araya González
                 </div>
                 <div className="sns-links">
@@ -23,9 +23,7 @@ const Footer = () => {
                     <a href="https://github.com/CaroMokka" target="_blank" rel="noreferrer">
                         <i className="fab fa-github github"></i>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
-                        <i className="fab fa-instagram instagram"></i>
-                    </a>
+                  
                 </div>
             </div>
             

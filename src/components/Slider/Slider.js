@@ -9,9 +9,9 @@ import './Slider.css';
 /* LEER DOCUMENTACION DE COMPONENTE CAROUSEL */
 const Slider = () => {
     return (
-        <div className="carousel-container">
+        <div className="carousel-container text-light">
             <div className="carousel-title">
-                <h2 className="carousel-h2">Proyectos</h2>
+                <h2 className="carousel-h2">PROYECTOS</h2>
             </div>
             <Carousel
                 plugins={['centered','infinite','arrows',{
@@ -26,7 +26,7 @@ const Slider = () => {
 
                 breakpoints={{
                     960: {
-                        plugins:['centered','infinite',{ 
+                        plugins:['infinite',{ 
                         resolve: slidesToShowPlugin,
                         options: {numberOfSlides: 1},
                         
