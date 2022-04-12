@@ -13,7 +13,7 @@
     padding: 0 100px 0 100px;
 }
 .slide-container{
-    height: 80%;
+    height: 40%;
     border-radius: 20%;
     overflow: hidden;
     position: relative;
@@ -29,6 +29,7 @@
 
 }
 .slide-description {
+    display: flex;
     background-color: black;
     position: absolute;
     bottom: 0;
@@ -39,6 +40,12 @@
     opacity: 0.8;
 }
 .slide-description > span {
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0 20px 10px;
+}
+.slide-description > a {
     color: white;
     display: block;
     font-size: 22px;

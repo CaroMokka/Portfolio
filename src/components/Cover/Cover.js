@@ -9,7 +9,7 @@ const Cover = () => {
 			<video className="video" src={coverVideo} autoPlay loop muted />
 			<h1 className="cover-h1">Carolina Araya González</h1>
 			<p className="cover-p">
-				Developer | Designer | Animation {" "}
+				Web Developer {" "}
 			</p>
 		</div>
 	);
