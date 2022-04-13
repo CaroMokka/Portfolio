@@ -2,6 +2,7 @@ import React from "react";
 import './Slider.css';
 import StarWars from '../../media/starWars.gif';
 import Spotify from '../../media/spotify.gif';
+import Dogs from '../../media/appDogs.png';
 
 
 const slidesInfo = [
@@ -12,7 +13,7 @@ const slidesInfo = [
         link: "https://github.com/CaroMokka/StarWars-Frontend-Backend.git"
     },
     {
-        src:Image03,
+        src: Dogs,
         alt:"Proyect 2",
         description:"App Walk-Dogs",
         link: "https://github.com/CaroMokka/Proyecto-Final.git"
