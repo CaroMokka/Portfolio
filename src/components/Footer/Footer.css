@@ -44,14 +44,14 @@
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.linkedin, .github, .instagram{
+.linkedin, .github, .envelope{
     color: white;
     font-size: 35px;
     margin: 0 auto;
     padding-bottom: 10px;
     border-bottom: 4px solid transparent;
 }
-.linkedin:hover, .github:hover, .instagram:hover {
+.linkedin:hover, .github:hover, .envelope:hover {
     border-color: white;
     transition: all 0.3s ease-in-out;
 
@@ -76,7 +76,8 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
-    .design-by {
+    /* .design-by {
         padding: 0 0 40px 0;
-    }
+        
+    } */
 }

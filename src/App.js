@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Slider from './components/Slider/Slider';
 import Info from './components/Info/Info';
 import Footer from './components/Footer/Footer';
+import Tecnology from './components/Tecnology/Tecnology';
 
 function App() {
   const [scroll, setScroll] = useState(0);
@@ -26,6 +27,7 @@ function App() {
         <Navbar isScrolling={scroll}/>
         <Cover />
         <About/>
+        <Tecnology/>
         <Slider/>
         <Info/>
         <Footer/>
