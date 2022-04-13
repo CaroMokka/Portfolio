@@ -1,6 +1,6 @@
 import React from "react";
 import './Slider.css';
-import StarWars from '../../media/starWars.gif';
+import StarWars from '../../media/starwars.gif';
 import Spotify from '../../media/spotify.gif';
 import Dogs from '../../media/appDogs.png';
 
