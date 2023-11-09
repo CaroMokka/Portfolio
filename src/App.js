@@ -4,7 +4,7 @@ import './App.css';
 import Cover from './components/Cover/Cover';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
-import Slider from './components/Slider/Slider';
+//import Slider from './components/Slider/Slider';
 import Info from './components/Info/Info';
 import Footer from './components/Footer/Footer';
 import Tecnology from './components/Tecnology/Tecnology';
@@ -28,7 +28,6 @@ function App() {
         <Cover />
         <About/>
         <Tecnology/>
-        <Slider/>
         <Info/>
         <Footer/>
 

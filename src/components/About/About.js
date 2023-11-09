@@ -6,11 +6,10 @@ const About = () => {
 	return (
 		<div className="about-container text-uppercase">
 			<div className="about-description">
-				<h3 className="about-h3">Hola soy Carolina,</h3>
-				<p className="about-p">Desarrolladora Web Junior Certificada de 4GeeksAcademy, extremadamente curiosa y amo el aprendizaje continuo. Hace unos meses decidí embarcarme en un nuevo desafío, el código. 
-				<br/>
-				<br/>
-				Tengo un Título de Animador Digital 3D en Arcos.   Me considero una persona inquieta y apasionada. Me siento afortunada de tener esta oportunidad y de asumir este nuevo desafío en mi vida.  Creo rotundamente que los cambios siempre son para bien y me emociona pensar que la tecnología nos llevará por nuevos rumbos.</p>
+				<h3 className="about-h3">Sobre mi</h3>
+				<p className="about-p">
+				+1 año de experiencia como Frontend. Soy curiosa, apasionada y perseverante, amante del mundo digital. De Frontend a diseño UX/UI, me gusta explorar e investigar cosas nuevas, siempre con el foco hacia un crecimiento constante. Mis proyectos han estado relacionados al desarrollo web, lo que me ha permitido conocer y trabajar con una gran diversidad de personas, entre ellas diseñadores. Actualmente me encuentro becada cursando el Programa de Certificación UX de Google.
+				</p>
 			</div>
 			
 			<div className="about-img">
