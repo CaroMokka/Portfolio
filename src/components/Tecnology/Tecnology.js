@@ -4,7 +4,7 @@ import './Tecnology.css';
 const Tecnology = () => {
   return (
     <div className='tecno-container bg-white text-uppercase p-4'>
-         <div className='border-top mb-5'></div>
+        <div className='border-top mb-5'></div>
         <div className='tecno-description'>
         <h3 className='text-center text-black pb-5'>
             Tecnologías
@@ -17,7 +17,7 @@ const Tecnology = () => {
         <i class="fa-brands fa-figma"></i>
         <i class="fa-brands fa-react"></i>
         <i class="fa-brands fa-git-alt"></i>
-        <i class="fa-brands fa-python"></i>
+        {/* <i class="fa-brands fa-python"></i> */}
         </div>
     </div>
     <div className='border-bottom mt-5'></div>
