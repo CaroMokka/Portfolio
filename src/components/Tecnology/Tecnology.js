@@ -3,10 +3,10 @@ import './Tecnology.css';
 
 const Tecnology = () => {
   return (
-    <div className='tecno-container bg-white text-uppercase p-4'>
-        <div className='border-top mb-5'></div>
+    <div className='tecno-container'>
+        {/* <div className='border-top mb-5'></div> */}
         <div className='tecno-description'>
-        <h3 className='text-center text-black pb-5'>
+        <h3 className='tecno-title'>
             Tecnologías
         </h3>
         <div className='d-flex justify-content-around display-2 text-black'>
