@@ -31,10 +31,13 @@
     height: 100%;
 }
 .cover-container > .cover-p {
+    width: 100%;
     margin-top: 1rem;
     color: white;
-    font-size: 2.5rem;
-    margin-right: 77vh;
+    font-size: 2rem;
+    /* margin-right: 77vh; */
+    padding: 0 3.5em;
+
 }
 .cover-container > .cover-a {
     margin-top: 1rem;
@@ -48,9 +51,9 @@
         text-align: center;
     }
     .cover-container > .cover-p {
-        text-align: center;
-        font-size: 22px;
-        width: 85%;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0 2.4em;
     }
     .container-title {
         width: 100%;
@@ -64,9 +67,9 @@
         text-align: center;
     }
     .cover-container > .cover-p {
-        text-align: center;
-        font-size: 22px;
-        width: 85%;
+        width: 100%;
+        font-size: 1rem;
+        padding: 0 1em;
     }
     .container-title {
         width: 100%;
