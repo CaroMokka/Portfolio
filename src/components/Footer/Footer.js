@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import pez from '../../media/pez.webp'
 
 const Footer = () => {
     return (
@@ -25,6 +26,9 @@ const Footer = () => {
                 </div>
                 <div className="Design-by fw-light">
                     Hecho por Carolina Araya
+                </div>
+                <div className='container-pez'>
+                    <img src={pez} />
                 </div>
             </div>
 
