@@ -1,7 +1,9 @@
 import React from "react";
+import Spinning from '../../components/Spinning/Spinning'
 import "./Cover.css";
-import coverVideo from "../../media/coverVideo.mp4";
+import coverVideo from "../../media/coverVideo01.mp4";
 import nameTitle from "../../media/name-02.webp";
+import arterisco from "../../media/arterisco.svg"
 
 const Cover = () => {
   return (
@@ -13,6 +15,9 @@ const Cover = () => {
       {/* <h2 className="cover-h1">CAROLINA ARAYA GONZÁLEZ</h2> */}
 	  <p className="cover-p">Frontend | UX-UI Design </p>
 	  {/* <h2 className="cover-a">OPEN TO WORK *</h2> */}
+    <div className='container-spinning'>
+    <Spinning  text='CREATIVE UX-UI FRONTEND * CARO ARAYA * '><div className='container-arterisco'><img src={arterisco}/></div></Spinning>
+    </div>
     </div>
   );
 };

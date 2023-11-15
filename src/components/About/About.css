@@ -1,7 +1,7 @@
 .about-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: #FFE81C;
     color: black;
     height: 80vh;
@@ -23,10 +23,27 @@
 }
 .container-aboutme {
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
     width: 50%;
     padding: 1rem;
-
+}
+.container-link-cv {
+ height: 4em;
+ width: 10em;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: solid 4px #1b1d23;
+ border-radius: 10px;
+ cursor: pointer;
+ margin-bottom: 30px;
+}
+.link-cv {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #1b1d23;
 }
 .container-aboutme > img {
     object-fit: contain;
