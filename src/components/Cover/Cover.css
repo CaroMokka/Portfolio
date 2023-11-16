@@ -80,8 +80,8 @@
         position: absolute;
         width: 40px;
         height: 40px;
-        bottom: 62%;
-        right: 60%;
+        bottom: 100px;
+        right: 100px;
     }
     .container-arterisco > img {
         width: 100%;
@@ -103,6 +103,13 @@
     .container-title {
         width: 100%;
         padding: 0 1em;
+    }
+    .container-arterisco {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        bottom: 100px;
+        right: 100px;
     }
 }
 @media (min-width: 960px) {
