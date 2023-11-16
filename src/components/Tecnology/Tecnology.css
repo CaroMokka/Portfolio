@@ -15,10 +15,14 @@
 } */
 .tecno-container{
     background-color: white;
+    padding: 6vw 0;
+    border-bottom: solid 6px white;
 }
 .tecno-title{
     text-align: center;
     text-transform: uppercase;
     font-size: 2.5rem;
     padding: 3rem 0;
+    font-weight: bolder;
+    margin-bottom: 1em;
 }
