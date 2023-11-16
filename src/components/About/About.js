@@ -2,7 +2,8 @@ import React from "react";
 import "./About.css";
 // import ImageProfile from "../../media/caro.jpg";
 import titleAbout from "../../media/title-aboutme-01.webp";
-
+import Spinning from "../Spinning/Spinning";
+import typoCV from '../../media/CV.webp'
 
 const About = () => {
   return (
@@ -26,9 +27,17 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className='container-link-cv'>
-          <a className="link-cv" href='https://docs.google.com/document/d/12A96LF9MG2hLiWukAXRpgJ3Jr2kVVfju0JOHkpHRECI/edit?usp=sharing'>Curriculum Vitae</a>
-          </div>
+      {/* <div className="container-link-cv">
+        <a
+          className="link-cv"
+          href="https://docs.google.com/document/d/12A96LF9MG2hLiWukAXRpgJ3Jr2kVVfju0JOHkpHRECI/edit?usp=sharing"
+        >
+          Curriculum Vitae
+        </a>
+      </div> */}
+      <div className='container-cv-typo'>
+        <img src={typoCV}/>
+      </div>
 
       {/* <div className="about-img">
 				<img src={ImageProfile} alt="about" />

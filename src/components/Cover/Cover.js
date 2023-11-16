@@ -3,7 +3,7 @@ import Spinning from '../../components/Spinning/Spinning'
 import "./Cover.css";
 import coverVideo from "../../media/coverVideo01.mp4";
 import nameTitle from "../../media/name-02.webp";
-import arterisco from "../../media/arterisco.svg"
+import arterisco from "../../media/arterisco.webp";
 
 const Cover = () => {
   return (
