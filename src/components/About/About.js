@@ -3,7 +3,7 @@ import "./About.css";
 // import ImageProfile from "../../media/caro.jpg";
 import titleAbout from "../../media/title-aboutme-01.webp";
 import Spinning from "../Spinning/Spinning";
-import typoCV from '../../media/CV.webp'
+import typoCV from "../../media/CV.webp";
 
 const About = () => {
   return (
@@ -35,8 +35,16 @@ const About = () => {
           Curriculum Vitae
         </a>
       </div> */}
-      <div className='container-cv-typo'>
-        <img src={typoCV}/>
+      {/* <div className="container-cv-typo">
+        <img src={typoCV} />
+      </div> */}
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+          <span>Curriculum*Vitae*</span>
+          <span>Curriculum*Vitae*</span>
+          <span>Curriculum*Vitae*</span>
+          <span>Curriculum*Vitae*</span>
+        </div>
       </div>
 
       {/* <div className="about-img">
