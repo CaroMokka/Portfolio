@@ -1,10 +1,13 @@
+/* #DBED64
+#FFE81C */
+
 .about-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFE81C;
+    background-color: #DBED64;
     color: black;
-    height: 100vh;
+    height: 80vh;
     /* padding: 100px 0 100px 0; */
 }
 .wrapper-aboutme {
@@ -142,6 +145,8 @@
     --move-initial: calc(-25% + var(--offset));
     --move-final: calc(-50% + var(--offset));
     cursor: pointer;
+    background-color: blue;
+    text-transform: uppercase;
 }
 .marquee:hover{
     background-color: blue;

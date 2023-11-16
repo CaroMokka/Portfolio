@@ -7,6 +7,7 @@ import typoCV from "../../media/CV.webp";
 
 const About = () => {
   return (
+    <>
     <div className="about-container text-uppercase">
       {/* <h3 className="about-h3">Sobre mi</h3> */}
       <div className="wrapper-aboutme">
@@ -38,19 +39,21 @@ const About = () => {
       {/* <div className="container-cv-typo">
         <img src={typoCV} />
       </div> */}
-      <div class="marquee">
-        <div class="marquee__inner" aria-hidden="true">
-          <span>Curriculum*Vitae*</span>
-          <span>Curriculum*Vitae*</span>
-          <span>Curriculum*Vitae*</span>
-          <span>Curriculum*Vitae*</span>
-        </div>
-      </div>
+      
 
       {/* <div className="about-img">
 				<img src={ImageProfile} alt="about" />
 			</div> */}
     </div>
+    <div class="marquee">
+    <div class="marquee__inner" aria-hidden="true">
+      <span>Curriculum*Vitae*</span>
+      <span>Curriculum*Vitae*</span>
+      <span>Curriculum*Vitae*</span>
+      <span>Curriculum*Vitae*</span>
+    </div>
+  </div>
+  </>
   );
 };
 
