@@ -9,6 +9,7 @@ import Info from './components/Info/Info';
 import Footer from './components/Footer/Footer';
 import Tecnology from './components/Tecnology/Tecnology';
 
+
 function App() {
   const [scroll, setScroll] = useState(0);
 
