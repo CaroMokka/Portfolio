@@ -36,8 +36,7 @@ const About = () => {
               me encuentro becada y cursando el Programa de Certificación UX de
               Google. Lo que ha sido todo un descubrimiento maravilloso en el
               mundo del diseño UX-UI. Enfocada en seguir creciendo
-              profesionalmente, mi meta es lograr complementar ambos mundos. De
-              modo que el desarrollo y el diseño convivan en mi.
+              profesionalmente, mi meta es lograr complementar ambos mundos. Tanto el diseño como el desarrollo.
             </p>
           </div>
         </div>

@@ -21,11 +21,11 @@ const Footer = () => {
                     <a href="https://github.com/CaroMokka" target="_blank" rel="noreferrer">
                         <i className="fab fa-github github"></i>
                     </a>
-                    <a href=" mailto:ci.arayagonzalez@gmail.com?subject=Quiero%20contactarme%20contigo%20Carolina&body=Hola%2C%20te%20contacto%20desde%20tu%20portafolio.%0D%0AMe%20gustar%C3%ADa%20hablar%20sobre%20una%20oportunidad%20de%20proyecto%20y%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20lo%20que%20haces%2C%20estar%C3%A9%20atent%40 " target="_blank" rel="noreferrer"><i class="fa-solid fa-envelope envelope"></i></a>
+                    <a href="mailto:ci.arayagonzalez@gmail.com?subject=Quiero%20contactarme%20contigo%20Carolina&body=Hola!%20te%20contacto%20desde%20tu%20portafolio.%20Me%20gustaria%20hablar%20sobre%20una%20oportunidad%20de%20proyecto%20y%20saber%20mas%20informacion%20sobre%20ti.%20Quedo%20atento" target="_blank" rel="noreferrer"><i class="fa-solid fa-envelope envelope"></i></a>
 
                 </div>
                 <div className="design-by">
-                made with lov by caro araya 2023
+                made with love by caro araya 2023
                 </div>
                 {/* <div className='container-pez'>
                     <img src={pez} />
