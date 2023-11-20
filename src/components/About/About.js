@@ -6,17 +6,15 @@ import titleAbout from "../../media/title-aboutme-01.webp";
 // import typoCV from "../../media/CV.webp";
 
 const About = () => {
-
   //debe ser unna function asincrona
-  //el enlace de pdf tiene que estar en la nube (drive?)
   const downloadCV = () => {
-    console.log('descraga el maldito odf')
-    let pdf = "https://www.google.com/search?q=cv+imagenes&rlz=1C5CHFA_enCL786CL786&oq=cv+image&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIGCAIQRRhAMgcIAxAAGIAEMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHtIBCTIzNjZqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8#vhid=US_uOtxGhYPn0M&vssid=l";
-    let windowOpen = '_blank'
+    console.log("descraga el maldito odf");
+    let pdf = 'https://docs.google.com/document/d/1E32XwgwBeftRqCyKDBR-mc7DkE1jUZmm3lUrxqZV35o';
+    let windowOpen = "_blank";
     let enlace = document.createElement("a");
     enlace.href = pdf;
     enlace.target = windowOpen;
-    enlace.download = "Carolina_Araya_cv.pdf";
+    enlace.download = "CV-Carolina Araya.pdf";
     document.body.appendChild(enlace);
     enlace.click();
     document.body.removeChild(enlace);
@@ -28,19 +26,18 @@ const About = () => {
         {/* <h3 className="about-h3">Sobre mi</h3> */}
         <div className="wrapper-aboutme">
           <div className="container-aboutme">
-            <img className="title-aboutme" alt='frontend' src={titleAbout} />
+            <img className="title-aboutme" alt="frontend" src={titleAbout} />
           </div>
           <div className="about-description">
             <p className="about-p">
-              Llevo +1 año de experiencia en el mundo digital. Me considero
-              curiosa en esencia, apasionada y perseverante. Ultimamente me
-              encontré con algo llamado UX. Disfruto explorando e investigando
-              nuevos mundos. Si bien mis proyectos están relacionados al
-              desarrollo web, este recorrido me ha permitido conocer y trabajar
-              con una diversidad de personas, entre ellas diseñador@s. Aquí es
-              donde me encuentro ahora, con un encanto por el UX/UI. Actualmente
+              Soy Caro, Desarrolladora Front-end y titulada en Animación Digital
+              en Arcos. Con +1 año de experiencia desarrollando HTML5, CSS3,
+              Javascript, React, Vtex IO, entre otras tecnologías. Actualmente
               me encuentro becada y cursando el Programa de Certificación UX de
-              Google.
+              Google. Lo que ha sido todo un descubrimiento maravilloso en el
+              mundo del diseño UX-UI. Enfocada en seguir creciendo
+              profesionalmente, mi meta es lograr complementar ambos mundos. De
+              modo que el desarrollo y el diseño convivan en mi.
             </p>
           </div>
         </div>
