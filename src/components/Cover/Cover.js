@@ -13,7 +13,7 @@ const Cover = () => {
         <img src={nameTitle} />
       </div>
       {/* <h2 className="cover-h1">CAROLINA ARAYA GONZÁLEZ</h2> */}
-	  <p className="cover-p">Frontend | UX-UI Design </p>
+	  <p className="cover-p">Frontend Developer | ci.arayagonzalez@gmail.com</p>
 	  {/* <h2 className="cover-a">OPEN TO WORK *</h2> */}
     <div className='container-spinning'>
     <Spinning  text='CREATIVE UX-UI FRONTEND * CARO ARAYA * '><div className='container-arterisco'><img src={arterisco}/></div></Spinning>

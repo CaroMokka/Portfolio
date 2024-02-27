@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <div className="footer-sns">
                 <div className="sns-links">
-                    <a href="https://www.linkedin.com/in/carolina-araya-gonzalez/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/carolina-araya-g/" target="_blank" rel="noreferrer">
                         <i className="fab fa-linkedin linkedin"></i>
                     </a>
                     <a href="https://github.com/CaroMokka" target="_blank" rel="noreferrer">
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 </div>
                 <div className="design-by">
-                made with love by caro araya 2023
+                made with 💜 by caro araya 2023
                 </div>
                 {/* <div className='container-pez'>
                     <img src={pez} />
