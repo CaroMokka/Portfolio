@@ -32,6 +32,9 @@
     width: 50%;
     padding: 1rem;
 }
+.title-aboutme {
+    margin-bottom: 15px;
+}
 .title-aboutme-img {
     filter: invert(1);
 }
@@ -60,15 +63,6 @@
 .about-description > .about-p {
     line-height: 1.8;
     margin: 0;
-}
-.about-img{
-    width: 45%;
-    height: 100%;
-    display: flex;
-    align-self: center;
-    overflow: hidden;
-    margin-left: 200px;
-
 }
 .container-cv-typo {
     position: relative;
