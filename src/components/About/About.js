@@ -1,15 +1,17 @@
 import React from "react";
 import "./About.css";
 // import ImageProfile from "../../media/caro.jpg";
-import titleAbout from "../../media/title-aboutme-01.webp";
+import titleAbout from "../../media/img-about.png";
 // import Spinning from "../Spinning/Spinning";
 // import typoCV from "../../media/CV.webp";
+import arterisco from "../../media/arterisco.webp"
 
 const About = () => {
   //debe ser unna function asincrona
   const downloadCV = () => {
-    console.log("descraga el maldito odf");
-    let pdf = 'https://docs.google.com/document/d/1E32XwgwBeftRqCyKDBR-mc7DkE1jUZmm3lUrxqZV35o';
+    //let pdf = 'https://docs.google.com/document/d/1E32XwgwBeftRqCyKDBR-mc7DkE1jUZmm3lUrxqZV35o';
+    let pdf =
+      "https://docs.google.com/document/d/1NMyZMaKvCYA2FHWQHXZ1gPijCBvvcN21bp5b_c6ouv0";
     let windowOpen = "_blank";
     let enlace = document.createElement("a");
     enlace.href = pdf;
@@ -26,17 +28,22 @@ const About = () => {
         {/* <h3 className="about-h3">Sobre mi</h3> */}
         <div className="wrapper-aboutme">
           <div className="container-aboutme">
-            <img className="title-aboutme" alt="frontend" src={titleAbout} />
+            <img
+              className="title-aboutme-img"
+              alt="frontend"
+              src={titleAbout}
+            />
           </div>
           <div className="about-description">
+            <h1 className="title-aboutme">¡Hola, soy Caro!</h1>
             <p className="about-p">
-              Soy Caro, Desarrolladora Front-end y titulada en Animación Digital
-              en Arcos. Con +1 año de experiencia desarrollando HTML5, CSS3,
-              Javascript, React, Vtex IO, entre otras tecnologías. Actualmente
-              me encuentro becada y cursando el Programa de Certificación UX de
-              Google. Lo que ha sido todo un descubrimiento maravilloso en el
-              mundo del diseño UX-UI. Enfocada en seguir creciendo
-              profesionalmente, mi meta es lograr complementar ambos mundos. Tanto el diseño como el desarrollo.
+              Desarrolladora Frontend con más de un año de experiencia en HTML,
+              CSS, JavaScript, React, Nodejs y otras tecnologías. Egresada
+              del Bootcamp Fullstack JavaScript de Talento Digital. Apasionada,
+              autodidacta y siempre en constante aprendizaje para mantenerme
+              actualizada con las últimas tendencias del desarrollo. Valoro la
+              colaboración y la comunicación efectiva, y creo en el trabajo en
+              equipo para alcanzar metas comunes.
             </p>
           </div>
         </div>
